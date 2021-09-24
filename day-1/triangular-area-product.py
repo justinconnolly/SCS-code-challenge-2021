@@ -26,7 +26,7 @@ triangle_areas = []
 min = 1000
 max = 0
 
-# this isn't entirely necessary, but I was interested in knowing the coordinates when a new min/max is found
+# this isn't entirely necessary, but I was interested in knowing the coordinates when a new min/max is found. Could also be done with a higher order function
 for combo in combos:
     appendList = []
     area = getArea(combo)
